@@ -34,7 +34,7 @@ def main():
                 fak_dns.write(txt.read())
 
 # 从环境变量中获取 DNS URL
-cn_dns = os.environ.get('CN_DNS')
-the_dns = os.environ.get('THE_DNS')
+cn_dns = os.environ.get('223.5.5.5 223.6.6.6 1.12.12.12 120.53.53.53')
+the_dns = os.environ.get('8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.11 149.112.112.11 208.67.222.222 208.67.220.220 94.140.14.14 94.140.15.15')
 
 main()
